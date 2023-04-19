@@ -1,0 +1,56 @@
+.user-auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+  &__avatar {
+    border-radius: 50px;
+    background-color: rgb(30, 131, 98);
+    width: 53px;
+    height: 53px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    span {
+      color: #fff;
+      font-size: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &-wrap {
+    padding-left: 5px;
+    // width: 110px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+
+    svg {
+      margin-left: 6px;
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+
+  &__subtitle {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 15px;
+    opacity: 0.6;
+  }
+}

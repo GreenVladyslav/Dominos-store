@@ -1,0 +1,36 @@
+.root {
+  padding: 40px;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+
+  @media (max-width: 576px) {
+    padding: 20px;
+  }
+
+  img {
+    width: 300px;
+  }
+}
+
+.title {
+  font-size: 58px;
+  color: #ce2828;
+
+  @media (max-width: 576px) {
+    font-size: 34px;
+  }
+}
+
+.color {
+  color: #333;
+}
+
+.description {
+  font-size: 36px;
+  font-weight: 600;
+
+  @media (max-width: 576px) {
+    font-size: 24px;
+  }
+}

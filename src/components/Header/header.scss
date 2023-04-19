@@ -1,0 +1,162 @@
+@import '../../scss/variables';
+
+.header {
+  padding: 0 15px;
+  height: 80px;
+  background-color: $header-bg;
+  width: 100%;
+
+  &-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+
+  &-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $header-text;
+    font-size: 16px;
+    font-weight: 800;
+    z-index: 100;
+
+    &__phone {
+      margin-right: 45px;
+      transition: opacity 0.2s ease-in;
+
+      @media (max-width: 991px) {
+        margin-right: 35px;
+      }
+
+      a {
+        display: flex;
+        flex-direction: row;
+
+        p {
+          margin-left: 4px;
+          color: $header-text;
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    &__city {
+      margin-right: 21px;
+      display: flex;
+      justify-content: row;
+      gap: 4px;
+      cursor: pointer;
+      transition: opacity 0.2s ease-in;
+
+      @media (max-width: 991px) {
+        margin-right: 11px;
+      }
+      svg {
+        height: 20px;
+      }
+      p {
+        color: $header-text;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    &__tracker {
+      padding: 25px;
+      cursor: pointer;
+      transition: color 0.2s ease-in;
+      color: #ffffff;
+      text-transform: uppercase;
+
+      @media (max-width: 991px) {
+        padding: 15px;
+      }
+
+      &:hover {
+        opacity: 0.7;
+      }
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+
+    &__news {
+      padding: 25px;
+      cursor: pointer;
+      transition: color 0.2s ease-in;
+      text-transform: uppercase;
+
+      @media (max-width: 991px) {
+        padding: 15px;
+      }
+
+      &:hover {
+        color: $hover;
+      }
+    }
+  }
+
+  &-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    &__language {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      z-index: 10;
+      p {
+        margin-right: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: $header-text;
+      }
+
+      svg {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        height: 8px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  &-login {
+    &__button {
+      display: block;
+      padding: 13px 36px;
+      background-color: #ffffff29;
+      border: none;
+      border-radius: 32px;
+      color: $header-text;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in;
+
+      &:hover {
+        background-color: #cfcbcb29;
+      }
+    }
+  }
+}
+
+.active-header {
+  color: #fe0021;
+}

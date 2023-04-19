@@ -1,0 +1,25 @@
+.pizza-block__buttons {
+  width: 162px;
+  height: 46px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: background-color 0.2s ease-in;
+  cursor: pointer;
+
+  button {
+    border: none;
+    background-color: transparent;
+  }
+
+  span {
+    font-size: 16px;
+    // line-height: 19px;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+}

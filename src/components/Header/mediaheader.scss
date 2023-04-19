@@ -1,0 +1,26 @@
+.media-header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 90px;
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #222222;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__middle {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+}

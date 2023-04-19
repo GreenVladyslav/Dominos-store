@@ -1,0 +1,42 @@
+.slider-pd {
+  @media (max-width: 991px) {
+    padding: 0 15px;
+  }
+}
+
+.slick-list {
+  border-radius: 50px;
+  max-height: 400px;
+
+  @media (max-width: 576px) {
+    border-radius: 26px;
+    height: 220px;
+  }
+}
+
+.slider {
+  img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: fill;
+
+    @media (max-width: 576px) {
+      height: 220px;
+    }
+  }
+}
+
+.slick-dots li button:hover {
+  color: rgb(254, 0, 33, 1);
+}
+
+.slick-dots li button:before {
+  font-size: 14px;
+  color: rgb(254, 0, 33);
+  opacity: 0.1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(254, 0, 33, 1);
+  opacity: 1;
+}

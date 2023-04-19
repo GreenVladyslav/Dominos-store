@@ -1,0 +1,532 @@
+{
+  "pizza": [
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Ftekhas-300dpi-min.webp&w=480&q=75",
+      "name": "Піца Техас",
+      "ingredients": [
+        "Соус Барбекю",
+        "Моцарела",
+        "Цибуля",
+        "Ковбаски баварські",
+        "Кукурудза",
+        "Гриби"
+      ],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [231, 274, 307],
+      "weights": [550, 738, 854],
+      "category": 1,
+      "rating": 10,
+      "id": "1"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fpepperony-y-tomaty-300dpi.webp&w=480&q=75",
+      "name": "Піца Пепероні З Томатами",
+      "ingredients": ["Соус Барбекю", "Моцарела", "Помідори", "Пепероні"],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [258, 340, 420],
+      "weights": [539, 718, 1001],
+      "category": 0,
+      "rating": 8,
+      "id": "2"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmanhatten-slice-collageweb-min.webp&w=480&q=75",
+      "name": "Піца Мангеттен",
+      "ingredients": ["Пепероні", "Моцарела", "Гриби", "Соус Альфредо"],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [251, 299, 320],
+      "weights": [545, 748, 1013],
+      "category": 1,
+      "rating": 10,
+      "id": "3"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Ftoskana-960.webp&w=480&q=75",
+      "name": "Піца Тоскана",
+      "ingredients": ["Курка", "Моцарела", "Помідори чері", "Соус Альфредо", "Фета", "Шпинат"],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [220, 290, 370],
+      "weights": [535, 728, 1023],
+      "category": 0,
+      "rating": 8,
+      "id": "4"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fvetchina-i-griby.webp&w=480&q=75",
+      "name": "Піца Шинка Та Гриби",
+      "ingredients": ["Моцарела", "Соус Domino's", "Гриби", "Шинка"],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [231, 369, 399],
+      "weights": [540, 778, 1013],
+      "category": 1,
+      "rating": 6,
+      "id": "5"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fmarharyta-300dpi-min.webp&w=480&q=75",
+      "name": "Піца Маргарита",
+      "ingredients": ["Моцарела(x2)", "Соус Dominos", "подвійна порція моцарели"],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [290, 258, 360],
+      "weights": [550, 738, 1013],
+      "category": 1,
+      "rating": 10,
+      "id": "6"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fbbq.webp&w=480&q=75",
+      "name": "Піца Барбекю",
+      "ingredients": ["Курка", "Соус Барбекю", "Моцарела", "Цибуля", "Гриби", "Бекон"],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [293, 360, 396],
+      "weights": [564, 739, 1043],
+      "category": 0,
+      "rating": 5,
+      "id": "7"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkarbonara-300dpi.webp&w=480&q=75",
+      "name": "Піца Карбонара",
+      "ingredients": ["Моцарела", "Соус Альфредо", "Цибуля", "Гриби", "Шинка", "Бекон"],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [247, 350, 380],
+      "weights": [520, 708, 1011],
+      "category": 1,
+      "rating": 4,
+      "id": "8"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkantry-300dpi-min.webp&w=480&q=75",
+      "name": "Піца Кантрі",
+      "ingredients": [
+        "Моцарела",
+        "Огірки мариновані",
+        "Цибуля",
+        "Соус Часниковий",
+        "Гриби",
+        "Шинка",
+        "Бекон"
+      ],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [256, 287, 320],
+      "weights": [499, 648, 1017],
+      "category": 0,
+      "rating": 7,
+      "id": "9"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fgrill-slice-collageweb-min.webp&w=480&q=75",
+      "name": "Піца Гриль Мікс",
+      "ingredients": [
+        "Болгарський перець",
+        "Курка",
+        "Соус Барбекю",
+        "Моцарела",
+        "Цибуля",
+        "Фрикадельки",
+        "Бекон"
+      ],
+      "sizes": ["Стандарт", "Велика", "Найбільша"],
+      "dough": ["Пухке", "Тонке"],
+      "board": ["Філадельфія", "Борт Хот-Дог"],
+      "price": [274, 301, 370],
+      "weights": [510, 718, 1012],
+      "category": 1,
+      "rating": 9,
+      "id": "10"
+    }
+  ],
+  "drinks": [
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fgaz.webp&w=480&q=75",
+      "name": "BonAqua Газована",
+      "sizes": [500],
+      "price": [35],
+      "category": 1,
+      "id": "11"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fng.webp&w=480&q=75",
+      "name": "BonAqua Негазована",
+      "sizes": [500],
+      "price": [35],
+      "category": 1,
+      "id": "12"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fcczero.webp&w=480&q=75",
+      "name": "Coca-Cola Zero",
+      "sizes": [330, 500, 1],
+      "price": [38, 47, 63],
+      "category": 1,
+      "id": "13"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fcc.webp&w=480&q=75",
+      "name": "Coca-Cola",
+      "sizes": [330, 500, 1],
+      "price": [38, 47, 63],
+      "category": 1,
+      "id": "14"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Ffanta-min.webp&w=480&q=75",
+      "name": "Fanta Апельсин",
+      "sizes": [330, 500, 750],
+      "price": [38, 47, 58],
+      "category": 1,
+      "id": "15"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fsprite-min.webp&w=480&q=75",
+      "name": "Sprite",
+      "sizes": [330, 500, 750],
+      "price": [38, 47, 58],
+      "category": 1,
+      "id": "16"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fban1.webp&w=480&q=75",
+      "name": "Rich Банан-Полуниця",
+      "sizes": [1],
+      "price": [70],
+      "category": 2,
+      "id": "17"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Forange.webp&w=480&q=75",
+      "name": "Rich Апельсин",
+      "sizes": [1],
+      "price": [85],
+      "category": 2,
+      "id": "18"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fapple.webp&w=480&q=75",
+      "name": "Rich Яблуко",
+      "sizes": [1],
+      "price": [80],
+      "category": 2,
+      "id": "19"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fexo.webp&w=480&q=75",
+      "name": "Rich Екзотик",
+      "sizes": [1],
+      "price": [75],
+      "category": 2,
+      "id": "20"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fstella-artois-non-alcohol-800x800-01.webp&w=480&q=75",
+      "name": "Stella Artois (N/A Ж/Б)",
+      "sizes": [330],
+      "price": [70],
+      "category": 3,
+      "id": "21"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fbud-new2.webp&w=480&q=75",
+      "name": "Bud",
+      "sizes": [500],
+      "price": [60],
+      "category": 3,
+      "id": "22"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fstellaartois1.webp&w=480&q=75",
+      "name": "Stella Artois",
+      "sizes": [500],
+      "price": [70],
+      "category": 3,
+      "id": "23"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Flowenbrau.webp&w=480&q=75",
+      "name": "Lowenbrau Original",
+      "sizes": [500],
+      "price": [90],
+      "category": 3,
+      "id": "24"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fleffe-brune-0.webp&w=480&q=75",
+      "name": "Leffe Brunе",
+      "sizes": [500],
+      "price": [98],
+      "category": 3,
+      "id": "25"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fhoegaarden-thumbnail-960x960.webp&w=480&q=75",
+      "name": "Hoegaarden",
+      "sizes": [500],
+      "price": [98],
+      "category": 3,
+      "id": "26"
+    }
+  ],
+  "sides": [
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fcombob1.webp&w=480&q=75",
+      "name": "Комбо-Бокс",
+      "sizes": ["Стандарт"],
+      "weight": [580],
+      "price": [300],
+      "category": 1,
+      "id": "27"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fcombob1fri.webp&w=480&q=75",
+      "name": "Комбо-Бокс Фрі",
+      "sizes": ["Стандарт"],
+      "weight": [580],
+      "price": [319],
+      "category": 1,
+      "id": "28"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fpotato-combo-box-26.webp&w=480&q=75",
+      "name": "Великий Бокс Картоплі",
+      "sizes": ["Стандарт"],
+      "weight": [580],
+      "price": [315],
+      "category": 1,
+      "id": "29"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fproduct-image-04-set.webp&w=480&q=75",
+      "name": "Набір Соусів",
+      "sizes": ["DIP"],
+
+      "price": [319],
+      "category": 1,
+      "id": "30"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fproduct-image-potatomushrooms-box-1280x871pix-01.webp&w=480&q=75",
+      "name": "Запечена Картопля З Грибами (Соус Барбекю, Картопляні Шматочки, Гриби, Цибуля, Соус Бургер)",
+      "sizes": ["Стандарт"],
+      "weight": [260],
+      "price": [130],
+      "category": 2,
+      "id": "31"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fproduct-image-potatosausages-box-1280x871pix-01.webp&w=480&q=75",
+      "name": "Запечена Картопля З Ковбасками (Соус Барбекю, Картопляні Шматочки, Сосиски Баварські, Бекон, Чеддер, Соус Бургер)",
+      "sizes": ["Стандарт"],
+      "weight": [291],
+      "price": [145],
+      "category": 2,
+      "id": "32"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkartopliani-shmatochky.webp&w=480&q=75",
+      "name": "Картопляні Шматочки",
+      "sizes": ["Стандарт"],
+      "weight": [190],
+      "price": [89],
+      "category": 2,
+      "id": "33"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Ffri-potato-dominosweb-min.webp&w=480&q=75",
+      "name": "Картопля Фрі З Печі",
+      "sizes": ["Стандарт"],
+      "weight": [180],
+      "price": [95],
+      "category": 2,
+      "id": "34"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fstrips.webp&w=480&q=75",
+      "name": "Курячі Стріпси",
+      "sizes": ["Стандарт", "Подвійний"],
+      "weight": [215, 430],
+      "price": [188, 265],
+      "category": 3,
+      "id": "35"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkryltsia-bbq.webp&w=480&q=75",
+      "name": "Крильця Барбекю",
+      "sizes": ["Стандарт", "Подвійний"],
+      "weight": [220, 445],
+      "price": [188, 275],
+      "category": 3,
+      "id": "36"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fhostri-kryltsia.webp&w=480&q=75",
+      "name": "Крильця Гострі",
+      "sizes": ["Стандарт", "Подвійний"],
+      "weight": [285, 520],
+      "price": [170, 290],
+      "category": 3,
+      "id": "37"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fhostri-kryltsia.webp&w=480&q=75",
+      "name": "Курячі Крильця",
+      "sizes": ["Стандарт", "Подвійний"],
+      "weight": [260, 490],
+      "price": [200, 270],
+      "category": 3,
+      "id": "38"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkhlebets-vetchyna-hryby.webp&w=480&q=75",
+      "name": "Хлібці  З Шинкою Та Грибами",
+      "sizes": ["Стандарт"],
+      "weight": [302],
+      "price": [136],
+      "category": 4,
+      "id": "39"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkhlebets-hoviadyna-luk.webp&w=480&q=75",
+      "name": "Хлібці Зі Стейк-М’ясоммм Та Цибулею",
+      "sizes": ["Стандарт"],
+      "weight": [315],
+      "price": [140],
+      "category": 4,
+      "id": "40"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkhlibets-s-bekonom-ta-khalapeno.webp&w=480&q=75",
+      "name": "Хлібці З Беконом І Халапеньо",
+      "sizes": ["Стандарт"],
+      "weight": [335],
+      "price": [136],
+      "category": 4,
+      "id": "41"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkhlibets-s-bavarskymy-kovbaskamy-ta-tomatamy.webp&w=480&q=75",
+      "name": "Хлібці З Баварськими Ковбасками Та Томатами",
+      "sizes": ["Стандарт"],
+      "weight": [324],
+      "price": [130],
+      "category": 4,
+      "id": "42"
+    }
+  ],
+  "desserts": [
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fproduct-imags-rolls-2300x1533pix-07b-07.webp&w=480&q=75",
+      "name": "Сіннамон Роли",
+      "sizes": ["Стандарт"],
+      "weight": [360],
+      "price": 110,
+      "category": 1,
+      "id": "43"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fproduct-imags-1.webp&w=480&q=75",
+      "name": "Вишневі Роли",
+      "sizes": ["Стандарт"],
+      "weight": [276],
+      "price": 100,
+      "category": 1,
+      "id": "44"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fproduct-imags.webp&w=480&q=75",
+      "name": "Абрикосові Роли",
+      "sizes": ["Стандарт"],
+      "weight": [276],
+      "price": 120,
+      "category": 1,
+      "id": "45"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fchocoroll.webp&w=480&q=75",
+      "name": "Шоколадні Роли",
+      "sizes": ["Стандарт"],
+      "weight": [229],
+      "price": 115,
+      "category": 1,
+      "id": "46"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fkrem-roly.webp&w=480&q=75",
+      "name": "Крем-Сир Роли",
+      "sizes": ["Стандарт"],
+      "weight": [241],
+      "price": 110,
+      "category": 1,
+      "id": "47"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Flava-keik.webp&w=480&q=75",
+      "name": "Лава Кейк",
+      "sizes": ["Стандарт"],
+      "weight": [96],
+      "price": 90,
+      "category": 1,
+      "id": "48"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fphoto164475431131.webp&w=480&q=75",
+      "name": "Мафін З Шоколаду",
+      "sizes": ["Стандарт"],
+      "weight": [80],
+      "price": 60,
+      "category": 1,
+      "id": "49"
+    },
+    {
+      "imgUrl": "https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2Fblack-maffin-thumbnail.webp&w=480&q=75",
+      "name": "Лате Мафін З Маршмелоу",
+      "sizes": ["Стандарт"],
+      "weight": [80],
+      "price": 60,
+      "category": 1,
+      "id": "50"
+    }
+  ],
+  "filterListDrinks": ["all", "water", "juice", "beer"],
+  "filterListSides": ["all", "comboboxes", "potato", "chicken", "bread"],
+
+  "categoriesList": [
+    { "id": "1", "name": "Набори" },
+    { "id": "2", "name": "Піца", "label": "pizza" },
+    { "id": "3", "name": "Напої", "label": "drinks" },
+    { "id": "4", "name": "Сайди", "label": "sides" },
+    { "id": "5", "name": "Десерти", "label": "desserts" }
+  ],
+  "street": [
+    { "value": "1", "label": "вул. Терещенківська 4а" },
+    { "value": "2", "label": "вул. Солом'янська 6в" },
+    { "value": "3", "label": "вул. Мишуги, 11Б" },
+    { "value": "4", "label": "вул. Одеса Гончара, 13" },
+    { "value": "5", "label": "вул. Гусовського 11/11" },
+    { "value": "6", "label": "вул. Сагайдачного 14" },
+    { "value": "7", "label": "просп. Бажана 11" },
+    { "value": "8", "label": "площа. Харківська 10" },
+    { "value": "9", "label": "вул. Кiльцево Дорога 1" },
+    { "value": "10", "label": "вул. Амосова Миколи 20" },
+    { "value": "11", "label": "просп. Моторний 3" },
+    { "value": "12", "label": "вул. Вереснева 14" },
+    { "value": "13", "label": "вул. Електриків 19" }
+  ]
+}

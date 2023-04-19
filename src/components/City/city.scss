@@ -1,0 +1,57 @@
+@import '../../scss/variables';
+
+.city {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  &-content {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 30px 100px;
+
+    @media (max-width: 576px) {
+      padding: 20px 70px;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    cursor: pointer;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+
+    @media (max-width: 576px) {
+      font-size: 22px;
+    }
+  }
+
+  ul {
+    li {
+      width: 20%;
+      padding-left: 10px;
+      font-size: 16px;
+      margin: 12px 0;
+      cursor: pointer;
+    }
+  }
+}

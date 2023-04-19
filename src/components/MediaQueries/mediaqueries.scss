@@ -1,0 +1,15 @@
+.component-one {
+  display: block;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.component-two {
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+  }
+}

@@ -1,0 +1,68 @@
+@import '../../scss/variables';
+
+.menu {
+  position: fixed;
+  top: 80px;
+  right: -100%;
+  width: 100%;
+  max-width: 330px;
+  border: 1px solid #f2f2f2;
+
+  height: calc(100vh - 160px);
+  z-index: 11;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
+
+  &.active {
+    right: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &__block {
+    overflow: auto;
+    position: relative;
+    width: 330px;
+    background-color: #ffffff;
+    height: 100%;
+    padding: 40px 45px;
+    transition: all 0.4s;
+    z-index: 11;
+  }
+
+  &__close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    &-item {
+      cursor: pointer;
+      margin: 4px 0 4px 10px;
+      font-size: 18px;
+      line-height: 27px;
+      color: #000000;
+      text-transform: uppercase;
+    }
+  }
+
+  &__divider {
+    margin: 10px 0;
+    height: 1px;
+    background-color: #000000;
+    opacity: 0.2;
+  }
+}
+
+.fixed {
+  position: fixed;
+  transform: translate(0px, 0px);
+}
+
+.disab {
+  text-decoration: line-through;
+}
