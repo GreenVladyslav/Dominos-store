@@ -5,7 +5,7 @@ export const fetchSides = createAsyncThunk('sides, fetchSideStatus', async (para
   const { sortBy, order, search, category } = params;
 
   const { data } = await axios.get(
-    `http://localhost:3001/sides?_sort=${sortBy}&_order=${order}&name_like=${search}&${category}`,
+    `https://json-server-vercel-three-mu.vercel.app/sides?_sort=${sortBy}&_order=${order}&name_like=${search}&${category}`,
   );
 
   return data;

@@ -4,7 +4,9 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchById = createAsyncThunk('getById, fetchByIdStatus', async (params) => {
   const { currentUrl, id } = params;
 
-  const { data } = await axios.get(`http://localhost:3001/${currentUrl}/${id}`);
+  const { data } = await axios.get(
+    `https://json-server-vercel-three-mu.vercel.app/${currentUrl}/${id}`,
+  );
 
   return data;
 });

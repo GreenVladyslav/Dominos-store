@@ -14,7 +14,7 @@ export const fetchPizzas = createAsyncThunk('pizza, fetchPizzasStatus', async (p
   const { sortBy, order, search } = params;
 
   const { data } = await axios.get(
-    `http://localhost:3001/pizza?_sort=${sortBy}&_order=${order}&name_like=${search}`,
+    `https://json-server-vercel-three-mu.vercel.app/pizza?_sort=${sortBy}&_order=${order}&name_like=${search}`,
   );
   return data;
 });

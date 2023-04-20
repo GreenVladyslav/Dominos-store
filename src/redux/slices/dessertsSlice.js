@@ -5,7 +5,7 @@ export const fetchDesserts = createAsyncThunk('desserts, fetchDessertsStatus', a
   const { sortBy, order, search } = params;
 
   const { data } = await axios.get(
-    `http://localhost:3001/desserts?_sort=${sortBy}&_order=${order}&name_like=${search}`,
+    `https://json-server-vercel-three-mu.vercel.app/desserts?_sort=${sortBy}&_order=${order}&name_like=${search}`,
   );
 
   return data;

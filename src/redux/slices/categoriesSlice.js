@@ -2,7 +2,9 @@ import axios from 'axios';
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const fetchCategories = createAsyncThunk('pizza, fetchPizzasStatus', async () => {
-  const { data } = await axios.get(`http://localhost:3001/categoriesList/`);
+  const { data } = await axios.get(
+    `https://json-server-vercel-three-mu.vercel.app/categoriesList/`,
+  );
   console.log(data);
 
   return data;

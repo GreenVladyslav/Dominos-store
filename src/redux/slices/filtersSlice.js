@@ -4,7 +4,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchFilters = createAsyncThunk('filters, fetchFilters', async (params) => {
   const { url } = params;
 
-  const { data } = await axios.get(`http://localhost:3001/${url}/`);
+  const { data } = await axios.get(`https://json-server-vercel-three-mu.vercel.app/${url}/`);
   return data;
 });
 
