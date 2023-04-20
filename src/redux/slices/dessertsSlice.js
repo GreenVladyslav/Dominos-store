@@ -5,7 +5,7 @@ export const fetchDesserts = createAsyncThunk('desserts, fetchDessertsStatus', a
   const { sortBy, order, search } = params;
 
   const { data } = await axios.get(
-    `https://dominos-store-n0qqnd773-greenvladyslav.vercel.app/desserts?_sort=${sortBy}&_order=${order}&name_like=${search}`,
+    `http://localhost:3001/desserts?_sort=${sortBy}&_order=${order}&name_like=${search}`,
   );
 
   return data;
