@@ -24,10 +24,21 @@ function CartEmpty() {
 
   const totalCount = items.reduce((sum, obj) => sum + obj.count, 0);
 
+  const isMounted = React.useRef(false);
+
+  React.useEffect(() => {
+    if (isMounted.current) {
+      const json = JSON.stringify(items);
+      localStorage.setItem('cart', json);
+      console.log(json);
+    }
+    isMounted.current = true;
+  }, [items]);
+
   const { t } = useTranslation();
 
   const openEmptyPopup = () => {
-    if (totalCount < 1) {
+    if (totalCount === 0) {
       dispatch(activeEmptyPopup(!emptyPopup));
     } else {
       dispatch(activeEmptyPopup(false));
